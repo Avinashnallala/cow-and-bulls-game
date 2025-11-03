@@ -9,9 +9,9 @@ k=''.join(s)
 m=list(input('enter the four digit number'))
 for i in range(0,4):
     if s[i]==m[i]:
-        cows+=1
-    else:
         bulls+=1
+    else:
+        cows+=1
 print(f'the cows score is {cows} and bulls score is {bulls}')
 if cows>bulls:
     print(f"cows has higher score {cows} and cows wins!!!!")
